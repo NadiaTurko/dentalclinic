@@ -20,8 +20,8 @@ document.addEventListener("DOMContentLoaded", function () {
     document.getElementById("formModal")?.classList.remove("active");
   }
 
-  const TOKEN = "7228190854:AAGGWAfwmymI30ebTZWwAf7F1v9kVD6kfgo";
-  const CHAT_ID = "5388421067";
+  const TOKEN = "Token";
+  const CHAT_ID = "Chatid";
   const URI_API = `https://api.telegram.org/bot${TOKEN}/sendMessage`;
 
   function initPhoneInput(selector) {
