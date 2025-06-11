@@ -1,0 +1,113 @@
+
+.iti--container{
+    z-index: 9999999999;
+}
+
+.iti__country-list {
+    background: linear-gradient(
+      rgb(174 174 174) -4.23%,
+      rgb(143 141 130) 12.58%
+    ) !important;
+    border: 1px solid #f4ebd0 !important; /* Невелика тінь */
+    max-width: fit-content;
+    z-index: 999999;
+    max-height: 260px;
+    width: max-content;
+    border-radius: 0 0 5px 5px;
+  }
+  
+
+  
+
+.iti__country {
+    padding: 8px 15px;
+    font-size: 16px;
+    color: #333; 
+    transition: background 0.2s ease-in-out;
+  }
+  
+  
+  .iti__country:hover {
+    background: rgba(244, 244, 244, 0.6);
+  }
+  
+  
+  .iti__country.iti__highlight {
+    background: rgb(194 194 194 / 80%);
+  }
+  
+  
+  .iti__country-list::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  .iti__country-list::-webkit-scrollbar-track {
+    background: rgba(244, 244, 244, 0.2);
+    border-radius: 10px;
+  }
+
+  .iti__country-list::-webkit-scrollbar-thumb {
+    background: #f4ebd0;
+    border-radius: 10px;
+  }
+  
+  .iti__dial-code {
+    color: #605656 !important;
+  }
+  
+
+  .iti--allow-dropdown .iti__flag-container:hover .iti__selected-flag {
+    background-color: transparent !important;
+  }
+  
+  .iti--separate-dial-code .iti__selected-flag {
+    background-color: transparent !important;
+  }
+  .iti__selected-flag {
+    padding: 0 6px 2px 0px !important;
+  }
+  
+  .iti--separate-dial-code .iti__selected-dial-code {
+    margin-left: 6px;
+    color: #ffffff94 !important;
+    font-size: 16px !important;
+  }
+
+
+  @media screen and (max-width: 768px) {
+    .iti__country-list {
+        max-width: 500px;
+      }
+  }
+
+  @media screen and (max-width: 600px) {
+    .iti__country-list {
+      max-width: 410px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .iti__country-list {
+      max-width: 395px;
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    .iti__country-list {
+        max-width: 365px;
+      }
+}
+
+@media screen and (max-width: 450px) {
+    .iti__country-list {
+        max-width: 340px;
+      }
+}
+
+
+@media screen and (max-width: 390px) {
+    .iti__country-list {
+      max-width: 310px;
+    }
+}
