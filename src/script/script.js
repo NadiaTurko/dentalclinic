@@ -309,8 +309,6 @@ function updateYearText() {
     if (footer) {
       const year = new Date().getFullYear();
       footer.innerHTML = `Стоматологічна клініка RONEVICH, © ${year}. Ліцензія МОЗ України №220 від 08.02.2018`;
-    } else {
-      console.warn("⚠️ footerText не знайдено!");
     }
   } catch (error) {
     console.log("Year update error:", error);

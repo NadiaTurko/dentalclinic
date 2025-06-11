@@ -4,7 +4,7 @@
 
 ## 🔗 Live Demo
 
-👉 [Відкрити сайт](https://nadiaturlo.github.io/dentalclinic/)  
+👉 [Відкрити сайт](https://nadiaturko.github.io/dentalclinic/)  
 
 
 ---
